@@ -1,0 +1,61 @@
+body{
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    text-shadow: whitesmoke 10px;
+}
+.card{
+    position: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 200px;
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 10px rgb(255, 255, 255);
+    width: 750px;
+    height: 125px;
+    background-image : linear-gradient(to bottom,rgb(252, 252, 252),rgb(120, 220, 245));
+}
+input{
+    width: 450px;
+    height: 70px;
+    padding: 12px 12px;
+    margin: 8px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,rgb(26, 159, 192),rgb(252, 252, 252));
+    border-color: white;
+    box-shadow: whitesmoke 30px;
+    color: rgb(65, 62, 62);
+    font-size: 30px;
+    font-weight: bold;
+}
+button{
+    background-color: white;
+    width: 200px;
+    height: 95px;
+    color: rgb(33, 2, 145);
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 33px;
+    border-radius: 50px;
+    box-shadow: whitesmoke 35px;
+    font-weight: bolder;
+}
+.result{
+    position: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 12px 12px;
+    border-radius: 15px;
+    box-shadow: 6px 6px 6px 6px whitesmoke;
+    width: 650px;
+    height: 70px;
+    background-image : linear-gradient(to bottom,rgb(252, 252, 252),rgb(120, 220, 245));
+}
+#degree{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 15px;
+}
